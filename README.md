@@ -1,20 +1,23 @@
-# Rasa-fararians
 ## TITLE
  Moringa chatbot
 ## AUTHOR
- Kennedy,Faith,Antony, Jane
+ * Kennedy Muriuki
+ * Faith Gakori
+ * Antony Mwaura
+ * Jane Jepkemboi
+ 
 ## PROJECT DESCRIPTION
-Building a conversational bot for Moringa to help fasten information access. The main importance of the bot is to ease information access, supplement the role of humans  and to improve the exprerience of the clients/ people who visit moringa website.
+   Building a conversational bot for Moringa to help fasten information access. The main importance of the bot is to ease information access, supplement the role of humans  and to    improve the exprerience of the clients/ people who visit moringa website.
 
-In our experimental design,we did the following
+   In our experimental design,we did the following
 
-Installed the frameworks and technologies we would need
+   Installed the frameworks and technologies we would need.
 
-Scraped data from moringa FAQ website and twitter.
+   Scraped data from moringa FAQ website and twitter.
 
-Trained our bot .
+   Trained our bot.
 
-Deployed to telegram.
+   Deployed to Telegram.
 
 ## Important things about our bot
 Our bot answers frequently asked questions.
