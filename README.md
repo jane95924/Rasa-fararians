@@ -1,5 +1,5 @@
 ## TITLE
- Moringa chatbot
+ Moringa  FAQ chatbot
 ## AUTHOR
  * Kennedy Muriuki
  * Faith Gakori
@@ -19,11 +19,19 @@
 
    Deployed to Telegram.
 
-## Important things about our bot
-Our bot answers frequently asked questions.
+## How the bot works.
+   The bot answers frequently asked questions.
+   
+   The bot takes an input from the user, then using the training data and examples, it figures out the appropriate intent and returns an appropriate action for that intent.
+   
 
 
-## INSTALLATION REQUIREMENTS
-
-Rasa
-
+## Technologies used
+* Rasa
+* Python v 3.6
+* Scrapy
+* Octoparse
+* Ngrok
+* google cloud platform
+* Google cloud SDK
+* Kubernetes
