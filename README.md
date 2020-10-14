@@ -7,24 +7,23 @@
  * Jane Jepkemboi
  
 ## PROJECT DESCRIPTION
-   Building a conversational bot for Moringa to help fasten information access. The main importance of the bot is to ease information access, supplement the role of humans  and to    improve the exprerience of the clients/ people who visit moringa website.
+   Building a conversational bot for Moringa to help fasten information access. The main importance of the bot is to ease information access, supplement the role of humans  and    to improve the exprerience of the clients/ people who visit moringa website.
 
-   In our experimental design,we did the following
+   In our experimental design,we did the following:
 
-   Installed the frameworks and technologies we would need.
+   * Installed the frameworks and technologies we would need.
 
-   Scraped data from moringa FAQ website and twitter.
+   * Scraped data from moringa FAQ website and twitter.
 
-   Trained our bot.
+   * Trained our bot.
 
-   Deployed to Telegram.
+   * Deployed to Telegram.
 
 ## How the bot works.
    The bot answers frequently asked questions.
    
    The bot takes an input from the user, then using the training data and examples, it figures out the appropriate intent and returns an appropriate action for that intent.
-   
-
+  Continuous training is done to improve the accuracy of the output. 
 
 ## Technologies used
 * Rasa
