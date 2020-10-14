@@ -1,0 +1,113 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: courses
+  steps:
+  - intent: faqs_courses
+  - action: utter_courses
+
+- story: employment
+  steps:
+  - intent: faqs_employment
+  - action: utter_employment
+
+- story: accomodation
+  steps:
+  - intent: faqs_accomodation
+  - action: utter_accomodation
+
+- story: payment
+  steps:
+  - intent: faqs_payment
+  - action: utter_payment
+
+- story: installments
+  steps:
+  - intent: faqs_installments
+  - action: utter_installments
+
+- story: prep_installments
+  steps:
+  - intent: faqs_prep_installments
+  - action: utter_prep_installments
+
+- story: class_payment
+  steps:
+  - intent: faqs_class_payment
+  - action: utter_class_payment
+
+
+- story: certificate
+  steps:
+  - intent: faqs_certificate
+  - action: utter_certificate
+
+- story: qualification
+  steps:
+  - intent: faqs_qualification
+  - action: utter_qualification
+
+- story: appointment
+  steps:
+  - intent: faqs_appointment
+  - action: utter_appointment
+
+- story: remote_learning
+  steps:
+  - intent: faqs_remote_learning
+  - action: utter_remote_learning
+
+- story: financial_aid
+  steps:
+  - intent: faqs_financial_aid
+  - action: utter_financial_aid
+
+- story: international_students
+  steps:
+  - intent: faqs_international_students
+  - action: utter_international_students
+
+- story: programming
+  steps:
+  - intent: faqs_programming
+  - action: utter_programming
+
+- story: scholarships
+  steps:
+  - intent: faqs_scholarships
+  - action: utter_scholarships
+
+- story: moringa_difference
+  steps:
+  - intent: faqs_moringa_difference
+  - action: utter_moringa_difference
+
+

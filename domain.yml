@@ -1,0 +1,125 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - faqs_courses
+  - faqs_employment
+  - faqs_accomodation
+  - faqs_payment
+  - faqs_installments
+  - faqs_prep_installments
+  - faqs_class_payment
+  - faqs_certificate
+  - faqs_qualification
+  - faqs_appointment
+  - faqs_remote_learning
+  - faqs_financial_aid
+  - faqs_international_students
+  - faqs_programming
+  - faqs_scholarships
+  - faqs_moringa_difference
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_courses:
+  - text: "We offer Software Development and Data science courses"
+
+  utter_employment:
+  - text: "No. What we guarantee is career-ready skills. Our courses are practical and relevant to the market. That is why many of our graduates find jobs. Moringa School offers support through training and informing graduates of job opportunities. Graduates then apply and some get these jobs. Other graduates have found jobs without our direct support while others have ventured into freelancing and entrepreneurship. Moringa School is proud to have helped all these brilliant young people achieve their career goals."
+
+  utter_accomodation:
+  - text: "No, we currently don’t provide accommodation. We, however, have a number of private hostels along Ngong road, which are close to the school."
+
+  utter_payment:
+  - text: "Software development charges for prep is ksh40,500 and core is 160,000 while Data science charges for prep is ksh40,500 and core is 140,000."
+
+  utter_class_payment:
+  - text: "We grade student’s performance in Prep to enable graduation to Core class. This would mean payment can only be done after the successful completion of Prep. However, once in the core you can choose to pay the full amount upfront"
+
+  utter_installments:
+  - text: "Yes. For our core modules, you can pay in 4 monthly installments"
+
+  utter_prep_installments:
+  - text: "We currently require students to pay an upfront amount (Ksh 40500) on the last Friday before Prep class starts."
+
+  utter_certificate:
+  - text: "Yes. We are a Technical and Vocational Education and Training (TVET) school recognized by the Ministry of Education. However, we encourage our students to build a portfolio which is a better marketing tool e.g in a course like Software Development which involves coming up with independent projects that build up technical skills"
+  - text: "After compleation of each course, either prep or core, we do offer certificates"
+  - text: "The certificates can be sent online"
+
+  utter_qualification:
+  - text: "We are currently registered under TVET (Technical and Vocational Education and Training). We require all our students to have gone through high school as is required by law (TVET) and should be computer proficient."
+  
+  utter_appointment:
+  - text: "Yes, you can book your appointment online. In the calendar invite we sent, there is a link to a Google Hangouts link that we can use to facilitate the interview. Or we can schedule a google call with you at your own convenience"
+
+  utter_remote_learning:
+  - text: "Moringa School’s remote classes are live; with daily sessions where learners ask questions and interact with tutors and fellow students."
+  
+  utter_financial_aid:
+  - text: "Yes. Financial aid was made available to students who need it when COVID-19 started"
+
+  utter_international_students:
+  - text: "Yes. We have students from across Africa and welcome students from around the world."
+
+  utter_programming:
+  - text: "Our Moringa Prep course introduces you to basic programming. This course is for beginners to learn the fundamentals of programming and for more established developers to sharpen their grasp on front-end skills. Visit the courses page to learn more."
+
+  utter_scholarships:
+  - text: "We do not offer scholarships at the moment. However, we offer need-based flexible installment plans. Reach us on contact@moringaschool.com for further information."
+  
+  utter_moringa_difference:
+  - text: "At Moringa School, we believe in your potential. Like traditional universities, we teach you the theory to help you understand different coding languages and their importance. But the bulk of our course is focused on teaching you the practical skills necessary for the job market."
+
+actions:
+- utter_greet
+- utter_did_that_help
+- utter_iamabot
+- utter_happy
+- utter_cheer_up
+- utter_goodbye
+- utter_courses
+- utter_employment
+- utter_accomodation
+- utter_installments
+- utter_certificate
+- utter_payment
+- utter_prep_installments
+- utter_class_payment
+- utter_appointment
+- utter_financial_aid
+- utter_remote_learning
+- utter_qualification
+- utter_international_students
+- utter_scholarships
+- utter_programming
+- utter_moringa_difference 
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

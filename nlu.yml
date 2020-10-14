@@ -1,0 +1,169 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: faqs_courses
+  examples: |
+    - What courses do you offer at Moringa school?
+    - courses
+    - courses offered
+
+- intent: faqs_employment
+  examples: |
+    - Do you offer employment after moringa school?
+    - Do you guarantee employment upon completion of this course?
+    - Internships
+    - Employment
+
+- intent: faqs_accomodation
+  examples: |
+    - Do you offer accomodation facilities on campus?
+    - Hostels
+    - Accomodation facilities?
+
+- intent: faqs_payment
+  examples: |
+    - How much do you charge at Moringa School?
+
+- intent: faqs_class_payment
+  examples: |
+    - Can I pay for the whole class? prep and core?
+
+- intent: faqs_installments
+  examples: |
+    - Can you pay in installments?
+    - Installments
+  
+- intent: faqs_prep_installments
+  examples: |
+    - Are there installment plans for Prep class?
+
+- intent: faqs_certificate
+  examples: |
+    - Do you offer certificates after completion of each course?
+    - Are the certificates recognized by the Kenyan government?
+    - Can the certificates be sent online?
+
+- intent: faqs_qualification
+  examples: |
+    - Do I need to have any qualifications inorder to pursue you courses?
+
+- intent: faqs_appointment
+  examples: |
+    - Do I need to book an appointment to visit the institution?
+    - Can I book an appointment online?
+  
+- intent: faqs_remote_learning
+  examples: |
+    - Do you offer a remote learning course?
+    - Are there online classes?
+
+- intent: faqs_financial_aid
+  examples: |
+    - Is financial aid available?
+
+- intent: faqs_international_students
+  examples: |
+    - Do you accept international students?
+    - Can I study outside East Africa?
+
+- intent: faqs_programming
+  examples: |
+    - Do I need to have programming skills to join Moringa?
+    - Programming skills
+    
+- intent: faqs_scholarships
+  examples: |
+    - Do you offer scholarships for your courses?
+
+- intent: faqs_moringa_difference
+  examples: |
+    - What differentiates Moringa from the rest?
