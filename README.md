@@ -16,9 +16,11 @@ Trained our bot .
 
 Deployed to telegram.
 
-## IMportant things about out bot
+## Important things about our bot
 Our bot answers frequently asked questions.
 
 
 ## INSTALLATION REQUIREMENTS
+
+Rasa
 
